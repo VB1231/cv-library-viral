@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Data Provider Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Data Provider Test</h1>
+<p>
+  Test duration: 77.847s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">uk.co.library.testsuit.JobSearchTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    22.466s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Software Developer", "Cardiff", "up to 20 miles", "400", "2000", "Per day", "Apprenticeship", "Apprenticeship"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: distance]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 20 miles<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: driver.version: unknown</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)<br />
+              uk.co.library.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:146)<br />
+              uk.co.library.pages.HomePage.selectDistance(HomePage.java:54)<br />
+              uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:25)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">uk.co.library.testsuit.JobSearchTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    5.200s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Tester", "Harrow", "up to 5 miles", "30000", "500000", "Per annum", "Permanent", "Permanent"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarymin]
+                                enter maximum salary500000
+                                verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarytype]
+                                select job typePermanent
+                                click on find job[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    4.084s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Tester", "Leicestershire", "up to 5 miles", "30000", "500000", "Per annum", "Permanent", "Permanent"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarymin]
+                                enter maximum salary500000
+                                verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarytype]
+                                select job typePermanent
+                                click on find job[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    4.863s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Customer Service", "Watford", "up to 10 miles", "40000", "600000", "Per month", "Contract", "Contract"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarymin]
+                                enter maximum salary600000
+                                verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarytype]
+                                select job typeContract
+                                click on find job[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    4.697s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Accountant", "Scotland", "up to 15 miles", "1000", "10000", "Per week", "Part Time", "Part Time"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarymin]
+                                enter maximum salary10000
+                                verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarytype]
+                                select job typePart Time
+                                click on find job[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    4.760s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Data Entry", "Wells", "up to 10 miles", "40000", "600000", "Per month", "Apprenticeship", "Apprenticeship"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarymin]
+                                enter maximum salary600000
+                                verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarytype]
+                                select job typeApprenticeship
+                                click on find job[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyJobSearchResultUsingDifferentDataSet
+      </td>
+  <td class="duration">
+    4.950s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Teacher", "Luton", "up to 10 miles", "400", "1000", "Per day", "Temporary", "Temporary"</span><br />
+    
+            <div class="testOutput">
+                        enter job title[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //input[@id='keywords']]
+                                enter location[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: location]
+                                select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: distance]
+                                click on more search[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: toggle-hp-search]
+                                enter salary minimum[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarymin]
+                                enter maximum salary1000
+                                verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarytype]
+                                select job typeTemporary
+                                click on find job[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: hp-search-btn]
+                                verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //h1[@class='search-header__title']]
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

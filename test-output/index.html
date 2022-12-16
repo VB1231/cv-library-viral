@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuite">
+              <span class="suite-name border-failed">testsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuite">
+                    <span>C:\Users\viral\IdeaProjects\cv-library-uk\src\test\java\resources\runners\reportNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods failed suite-testsuite"> (hide)</a> <!-- hide-methods failed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods failed suite-testsuite"> (show)</a> <!-- show-methods failed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-testsuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)">verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods passed suite-testsuite"> (hide)</a> <!-- hide-methods passed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods passed suite-testsuite"> (show)</a> <!-- show-methods passed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)">verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)">verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)">verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)">verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuit.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)">verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuite" class="panel testsuite">
+          <div class="suite-testsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">uk.co.library.testsuit.JobSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 20 miles
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at uk.co.library.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:146)
+	at uk.co.library.pages.HomePage.selectDistance(HomePage.java:54)
+	at uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:25)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-failed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uk.co.library.testsuit.JobSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+        </div> <!-- panel testsuite -->
+        <div panel-name="test-xml-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\viral\IdeaProjects\cv-library-uk\src\test\java\resources\runners\reportNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;uk.co.library.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Data Provider Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uk.co.library.testsuit.JobSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Data Provider Test --&gt;
+&lt;/suite&gt; &lt;!-- testsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Data Provider Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuite');
+function tableData_testsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(0, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(0, 3, 22466);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(1, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(1, 3, 5200);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(2, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(2, 3, 4950);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(3, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(3, 3, 4863);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(4, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(4, 3, 4760);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(5, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(5, 3, 4697);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(6, 2, 'uk.co.library.testsuit.JobSearchTest')
+data.setCell(6, 3, 4084);
+window.suiteTableData['testsuite']= { tableData: data, tableDiv: 'times-div-testsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-testsuite">
+              </div> <!-- times-div-testsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary1000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typeTemporary</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary600000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typeApprenticeship</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary500000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typePermanent</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary10000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typePart Time</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary500000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typePermanent</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: distance]</span>
+                <span class="reporter-method-output">click on more search[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">enter salary minimum[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarymin]</span>
+                <span class="reporter-method-output">enter maximum salary600000</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarytype]</span>
+                <span class="reporter-method-output">select job typeContract</span>
+                <span class="reporter-method-output">click on find job[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: hp-search-btn]</span>
+                <span class="reporter-method-output">verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enter job title[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">enter location[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: location]</span>
+                <span class="reporter-method-output">select distance from dropdown[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: distance]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">uk.co.library.testsuit.JobSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">4590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+                <span class="method-start">4632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">13752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract)</span>
+                <span class="method-start">13756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">22358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time)</span>
+                <span class="method-start">22360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">30298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary)</span>
+                <span class="method-start">30299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">38795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship)</span>
+                <span class="method-start">38796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">47165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship)</span>
+                <span class="method-start">47166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">73262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent)</span>
+                <span class="method-start">73262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77346 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

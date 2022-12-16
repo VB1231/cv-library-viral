@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary500000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typePermanent]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary600000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typeContract]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary10000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typePart Time]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary1000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typeTemporary]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary600000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typeApprenticeship]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //input[@id='keywords']]]]>
+    </line>
+    <line>
+      <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: location]]]>
+    </line>
+    <line>
+      <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: distance]]]>
+    </line>
+    <line>
+      <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: toggle-hp-search]]]>
+    </line>
+    <line>
+      <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarymin]]]>
+    </line>
+    <line>
+      <![CDATA[enter maximum salary500000]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarytype]]]>
+    </line>
+    <line>
+      <![CDATA[select job typePermanent]]>
+    </line>
+    <line>
+      <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: hp-search-btn]]]>
+    </line>
+    <line>
+      <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //h1[@class='search-header__title']]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="78439" started-at="2022-12-15T21:27:52 GMT" finished-at="2022-12-15T21:29:11 GMT">
+    <groups>
+    </groups>
+    <test name="Data Provider Test" duration-ms="78439" started-at="2022-12-15T21:27:52 GMT" finished-at="2022-12-15T21:29:11 GMT">
+      <class name="uk.co.library.testsuit.JobSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="4587" started-at="2022-12-15T21:27:52 GMT" finished-at="2022-12-15T21:27:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="42" started-at="2022-12-15T21:27:57 GMT" finished-at="2022-12-15T21:27:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="5200" started-at="2022-12-15T21:27:57 GMT" data-provider="credentials" finished-at="2022-12-15T21:28:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary500000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typePermanent]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="763" started-at="2022-12-15T21:28:02 GMT" finished-at="2022-12-15T21:28:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="3152" started-at="2022-12-15T21:28:03 GMT" finished-at="2022-12-15T21:28:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="4" started-at="2022-12-15T21:28:06 GMT" finished-at="2022-12-15T21:28:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="4863" started-at="2022-12-15T21:28:06 GMT" data-provider="credentials" finished-at="2022-12-15T21:28:11 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Watford]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 10 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary600000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typeContract]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="855" started-at="2022-12-15T21:28:11 GMT" finished-at="2022-12-15T21:28:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2883" started-at="2022-12-15T21:28:12 GMT" finished-at="2022-12-15T21:28:15 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="2" started-at="2022-12-15T21:28:15 GMT" finished-at="2022-12-15T21:28:15 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="4697" started-at="2022-12-15T21:28:15 GMT" data-provider="credentials" finished-at="2022-12-15T21:28:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accountant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scotland]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 15 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per week]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Part Time]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Part Time]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary10000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typePart Time]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="758" started-at="2022-12-15T21:28:20 GMT" finished-at="2022-12-15T21:28:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2481" started-at="2022-12-15T21:28:20 GMT" finished-at="2022-12-15T21:28:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="1" started-at="2022-12-15T21:28:23 GMT" finished-at="2022-12-15T21:28:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="4950" started-at="2022-12-15T21:28:23 GMT" data-provider="credentials" finished-at="2022-12-15T21:28:28 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Teacher]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Luton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 10 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per day]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Temporary]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Temporary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary1000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typeTemporary]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="709" started-at="2022-12-15T21:28:28 GMT" finished-at="2022-12-15T21:28:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2835" started-at="2022-12-15T21:28:28 GMT" finished-at="2022-12-15T21:28:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="1" started-at="2022-12-15T21:28:31 GMT" finished-at="2022-12-15T21:28:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="4760" started-at="2022-12-15T21:28:31 GMT" data-provider="credentials" finished-at="2022-12-15T21:28:36 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Entry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wells]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 10 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Apprenticeship]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Apprenticeship]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary600000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typeApprenticeship]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="757" started-at="2022-12-15T21:28:36 GMT" finished-at="2022-12-15T21:28:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2852" started-at="2022-12-15T21:28:37 GMT" finished-at="2022-12-15T21:28:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="0" started-at="2022-12-15T21:28:40 GMT" finished-at="2022-12-15T21:28:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="FAIL" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="22466" started-at="2022-12-15T21:28:40 GMT" data-provider="credentials" finished-at="2022-12-15T21:29:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cardiff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 20 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per day]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Apprenticeship]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Apprenticeship]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: up to 20 miles
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 20 miles
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at uk.co.library.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:146)
+at uk.co.library.pages.HomePage.selectDistance(HomePage.java:54)
+at uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="700" started-at="2022-12-15T21:29:02 GMT" finished-at="2022-12-15T21:29:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2680" started-at="2022-12-15T21:29:03 GMT" finished-at="2022-12-15T21:29:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="inIT" is-config="true" duration-ms="0" started-at="2022-12-15T21:29:06 GMT" finished-at="2022-12-15T21:29:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="4084" started-at="2022-12-15T21:29:06 GMT" data-provider="credentials" finished-at="2022-12-15T21:29:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Leicestershire]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter job title[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //input[@id='keywords']]]]>
+            </line>
+            <line>
+              <![CDATA[enter location[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: location]]]>
+            </line>
+            <line>
+              <![CDATA[select distance from dropdown[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: distance]]]>
+            </line>
+            <line>
+              <![CDATA[click on more search[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: toggle-hp-search]]]>
+            </line>
+            <line>
+              <![CDATA[enter salary minimum[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarymin]]]>
+            </line>
+            <line>
+              <![CDATA[enter maximum salary500000]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarytype]]]>
+            </line>
+            <line>
+              <![CDATA[select job typePermanent]]>
+            </line>
+            <line>
+              <![CDATA[click on find job[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: hp-search-btn]]]>
+            </line>
+            <line>
+              <![CDATA[verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //h1[@class='search-header__title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuit.JobSearchTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="765" started-at="2022-12-15T21:29:10 GMT" finished-at="2022-12-15T21:29:11 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.library.testsuit.JobSearchTest -->
+    </test> <!-- Data Provider Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

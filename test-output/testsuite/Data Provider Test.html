@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>TestNG:  Data Provider Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Data Provider Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 15 21:27:52 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>78 seconds (78439 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Software Developer, Cardiff, up to 20 miles, 400, 2000, Per day, Apprenticeship, Apprenticeship<br/>
+<a href="#Output-2061316668" onClick='toggleBox("Output-2061316668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061316668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061316668">
+enter job title[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (86360035df3b817003a08db92a009c72)] -> id: distance]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\cv-library-uk/test-output/html/verifyJobSearchResultUsingDifferentDataSetThu_Dec_15_21_29_02_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 20 miles
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at uk.co.library.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:146)
+	at uk.co.library.pages.HomePage.selectDistance(HomePage.java:54)
+	at uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:25)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2061316668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2061316668'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 20 miles
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at uk.co.library.utility.Utility.selectByVisibleTextFromDropDown(Utility.java:146)
+	at uk.co.library.pages.HomePage.selectDistance(HomePage.java:54)
+	at uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>22</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Teacher, Luton, up to 10 miles, 400, 1000, Per day, Temporary, Temporary<br/>
+<a href="#Output-870019773" onClick='toggleBox("Output-870019773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870019773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870019773">
+enter job title[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarymin]<br/>
+enter maximum salary1000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: salarytype]<br/>
+select job typeTemporary<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (0cd62ee52d045b96926dcf007ba7bfbd)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Data Entry, Wells, up to 10 miles, 40000, 600000, Per month, Apprenticeship, Apprenticeship<br/>
+<a href="#Output-1170173753" onClick='toggleBox("Output-1170173753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1170173753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1170173753">
+enter job title[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarymin]<br/>
+enter maximum salary600000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: salarytype]<br/>
+select job typeApprenticeship<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (0e8468cf40fcbbd26b34d563d0187fb4)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent<br/>
+<a href="#Output-1316001196" onClick='toggleBox("Output-1316001196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1316001196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1316001196">
+enter job title[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarymin]<br/>
+enter maximum salary500000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: salarytype]<br/>
+select job typePermanent<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (72f3002824505f9a995b7f532f295dd7)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Accountant, Scotland, up to 15 miles, 1000, 10000, Per week, Part Time, Part Time<br/>
+<a href="#Output-1053856141" onClick='toggleBox("Output-1053856141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1053856141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1053856141">
+enter job title[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarymin]<br/>
+enter maximum salary10000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: salarytype]<br/>
+select job typePart Time<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (d9efa937858492884cbee41c1960067d)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Tester, Leicestershire, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent<br/>
+<a href="#Output-1217434045" onClick='toggleBox("Output-1217434045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1217434045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1217434045">
+enter job title[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarymin]<br/>
+enter maximum salary500000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: salarytype]<br/>
+select job typePermanent<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (9fb605aa2d1e2021095d242120b69b58)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+<tr>
+<td title='uk.co.library.testsuit.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuit.JobSearchTest<br>Parameters: Customer Service, Watford, up to 10 miles, 40000, 600000, Per month, Contract, Contract<br/>
+<a href="#Output-291847739" onClick='toggleBox("Output-291847739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-291847739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-291847739">
+enter job title[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //input[@id='keywords']]<br/>
+enter location[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: location]<br/>
+select distance from dropdown[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: distance]<br/>
+click on more search[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: toggle-hp-search]<br/>
+enter salary minimum[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarymin]<br/>
+enter maximum salary600000<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: salarytype]<br/>
+select job typeContract<br/>
+click on find job[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> id: hp-search-btn]<br/>
+verify text[[ChromeDriver: chrome on WINDOWS (f1ce09269aca96c154b93c97d26362d5)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>uk.co.library.testsuit.JobSearchTest@1786f9d5</td></tr>
+</table><p>
+</body>
+</html>
